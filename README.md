@@ -31,3 +31,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 >Liste:
 ![2](https://user-images.githubusercontent.com/61566287/205298948-8af6d556-7823-4c32-b4bb-bb5ef593d309.PNG)
 >ajout:
+![1](https://user-images.githubusercontent.com/61566287/205299053-63f2b31b-767f-4dcb-9ee4-94a1860ab8e8.PNG)
