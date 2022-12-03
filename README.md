@@ -43,5 +43,6 @@ Run ' ng add @angular/material@12.2.13  '
 ![2](https://user-images.githubusercontent.com/61566287/205444915-a5b9a766-7cc7-4bc2-a524-aa48ca2ce5c1.PNG)
 
 >update:
+![3](https://user-images.githubusercontent.com/61566287/205444928-23d66c58-7d52-4c59-bd86-8efbe543230c.PNG)
 
 >supprimer:
