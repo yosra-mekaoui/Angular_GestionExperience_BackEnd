@@ -37,7 +37,7 @@ Run ' ng add @angular/material@12.2.13  '
 ## Captures
 
 >Liste:
-
+![1](https://user-images.githubusercontent.com/61566287/205444891-444ac949-061e-4602-b299-0e50c92a2fa5.PNG)
 
 >ajout:
 
