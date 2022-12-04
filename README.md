@@ -27,13 +27,24 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+
+
+
+## Important:
+
+Run ' ng add @angular/material@12.2.13  '
+
 ## Captures
 
 >Liste:
-![2](https://user-images.githubusercontent.com/61566287/205298948-8af6d556-7823-4c32-b4bb-bb5ef593d309.PNG)
+![1](https://user-images.githubusercontent.com/61566287/205444891-444ac949-061e-4602-b299-0e50c92a2fa5.PNG)
 
 >ajout:
-![3](https://user-images.githubusercontent.com/61566287/205299128-55fc3b72-b562-4f89-b08a-0e2f1d7c37f4.PNG)
+![2](https://user-images.githubusercontent.com/61566287/205444915-a5b9a766-7cc7-4bc2-a524-aa48ca2ce5c1.PNG)
 
 >update:
-![1](https://user-images.githubusercontent.com/61566287/205299053-63f2b31b-767f-4dcb-9ee4-94a1860ab8e8.PNG)
+![3](https://user-images.githubusercontent.com/61566287/205444928-23d66c58-7d52-4c59-bd86-8efbe543230c.PNG)
+
+>supprimer:
+![4](https://user-images.githubusercontent.com/61566287/205444942-deb2474a-f929-40fe-bf2f-54eb267cf982.PNG)
+
