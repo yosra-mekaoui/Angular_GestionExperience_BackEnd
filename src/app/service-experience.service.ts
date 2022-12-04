@@ -52,5 +52,11 @@ export class ServiceExperienceService {
    getExperienceById(id:Number){
      return this.http.get<Experience>(this.urlApi+"/get/"+id);
    }
-      
+     
+   exportPdfExperiences():Observable<Blob>{
+    return this.http.get("http://localhost:8080/test/Experience/export/pdf", {responseType: 'blob' });
+   }
+   exportExcelExperiences():Observable<Blob>{
+    return this.http.get("http://localhost:8080/test/Experience/export/excel", {responseType: 'blob' });
+}
 }

@@ -3,7 +3,16 @@
     <button style="margin-bottom: 10px;" mat-raised-button color="accent" (click)="openDialog()">Ajouter Experience</button> 
     
     </div>
-    
+    <div>
+      <button style="margin-bottom: 10px;" mat-raised-button color="accent" (click)="exportExperience()">Imprimer en Pdf</button> 
+      
+      </div>
+
+      <div>
+        <button style="margin-bottom: 10px;" mat-raised-button color="accent" (click)="exportExperienceExcel()">Excel</button> 
+        
+        </div>
+        
     <mat-form-field>
         <mat-label>Filter</mat-label>
         <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>

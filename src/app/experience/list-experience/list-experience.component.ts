@@ -101,23 +101,7 @@ this.getAllExperiences()
 
 
 
-/*deleteExperience(id:number){
 
-this.experienceService.deleteExperience(id)
-.subscribe({
-    next: (res)=>{
-alert("experience bien supprimer")
-this.getAllExperiences()
-
-},
-error:()=>{
-alert("erreur de suppression")
-}
-
-
-})
-
-}*/
 
 deleteExperience(id: number){
   this.experienceService.deleteExperience(id).subscribe( data => {
@@ -130,7 +114,51 @@ deleteExperience(id: number){
 }
 
 
-
-
-
+exportExperience(){
+  this.experienceService.exportPdfExperiences().subscribe(x => {
+    const blob = new Blob([x], { type: 'application/pdf' });
+    const url= window.URL.createObjectURL(blob);
+    const nav = (window.navigator as any);
+if (nav.msSaveOrOpenBlob) {
+  nav.msSaveOrOpenBlob(blob);
+  return;
 }
+   
+  const data = window.URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href= data;
+  link.download="experience.pdf";
+  link.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true, view: window}));
+  
+  setTimeout(function() {
+    window.URL.revokeObjectURL(data);
+    link.remove();
+  }, 100);
+});
+  
+  }
+  
+  exportExperienceExcel(){
+    this.experienceService.exportExcelExperiences().subscribe(x => {
+      const blob = new Blob([x], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+      const n = (window.navigator as any);
+if (n.msSaveOrOpenBlob) {
+  n.msSaveOrOpenBlob(blob);
+  return;
+}
+      const data = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = data;
+      link.download="experience.xlsx";
+      link.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true, view: window}));
+
+      setTimeout(function() {
+        window.URL.revokeObjectURL(data);
+        link.remove();
+      }, 100);
+});
+
+  }
+}
+
+
