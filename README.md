@@ -47,4 +47,6 @@ Run ' ng add @angular/material@12.2.13  '
 
 >supprimer:
 ![4](https://user-images.githubusercontent.com/61566287/205444942-deb2474a-f929-40fe-bf2f-54eb267cf982.PNG)
+>PDF et EXCEL :
+![exce](https://user-images.githubusercontent.com/61566287/205506232-721ddfd7-2b07-4f25-864f-0ba14f3a6dbc.PNG)
 
