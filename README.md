@@ -13,7 +13,6 @@ this project was made by:
 * Yosra Mekaoui
  
 
-
 	
 ## Technologies
 Project is created with:
