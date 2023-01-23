@@ -12,7 +12,6 @@ This project is an e-commerce website.
 this project was made by:
 * Yosra Mekaoui
  
-
 	
 ## Technologies
 Project is created with:
