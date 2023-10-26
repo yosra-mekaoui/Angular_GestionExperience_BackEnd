@@ -7,8 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ExperienceModule } from './experience/experience.module';
+import { EvenementModule} from './evenement/evenement.module'
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     ExperienceModule,
+    EvenementModule,
+    MatTableModule,
+
+    
+
     HttpClientModule,
     BrowserAnimationsModule,
     

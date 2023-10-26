@@ -6,7 +6,12 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   
   {path:'experience',  loadChildren:() =>import('./experience/experience.module').then(m=>m.ExperienceModule)
+
   }
+  ,
+  {path:'evenement',  loadChildren:() =>import('./evenement/evenement.module').then(m=>m.EvenementModule)
+
+  },
 ];
 
 @NgModule({
